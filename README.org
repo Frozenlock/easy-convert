@@ -9,8 +9,9 @@
 
   : 100oz converted to g = 2834.9523125 g
 
-  Because this program is built on top of calc-units, it understands
-  he usual prefixes, such as k (kilo), m (milli), y (yocto)...
+  This program is built on top of calc-units, which means it
+  understands the usual prefixes, such as k (kilo), m (milli), y
+  (yocto)...
 
   : Old value and unit (type C-z for unit list) : kg
  
