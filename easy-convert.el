@@ -60,7 +60,7 @@ to see every units available and to see how to write them."
     (let* ((old-value-and-unit
 	    (read-from-minibuffer "Old value and unit (type C-z for unit list) : " nil temp-keymap))
 	   (new-unit (read-from-minibuffer
-		      (concat "Convert " old-value-and-unit " to unit (type C-z for unit list) : -") nil temp-keymap)))
+		      (concat "Convert " old-value-and-unit " to unit (type C-z for unit list) : ") nil temp-keymap)))
       (message (concat old-value-and-unit " converted to " new-unit " = " 
 		       (easy-convert old-value-and-unit new-unit))))))
 
